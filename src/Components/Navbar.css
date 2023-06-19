@@ -1,0 +1,159 @@
+.logo{
+    padding-top: 3px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input {
+    background-color: #f0edee;
+    box-shadow: 5px 5px 5px grey;
+    width: 4cm;
+    border-radius:5px;
+    position:sticky;
+    align-content: center;
+    justify-content: space-evenly;
+  }
+
+/* .css-1pysi21-MuiFormLabel-root-MuiInputLabel-root{
+   line-height: 1rem;
+   padding-left: 10px;
+} */
+
+
+
+.form-check {
+    padding-top: 3.5px;
+}
+  
+/* .form-check-input{
+  padding-top: 55px;
+} */
+
+  #main-slider-container {
+    display: flex;
+    width: 93.8%;
+    height: 124px;
+    background: rgb(4, 121, 199);
+    margin-top: 15px;
+    margin-left: 40px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 2px rgb(216, 216, 216);
+}
+
+  #slider {
+    width: 100%;
+    height: 100%;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    color: rgb(255, 255, 255);
+  }
+
+  #slider::-webkit-scrollbar{
+    display: none;
+  }
+
+  /* .slider {
+    margin-left: 0px;
+  } */
+
+  #main-slider-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    white-space: nowrap;
+    font-family:'Times New Roman', Times, sans-serif;
+    box-shadow: inset 0 -3em 3em rgba(35, 17, 136, 0.1), 0 0 0 2px rgb(238, 235, 235),
+    0.3em 0.3em 1em rgba(62, 9, 122, 0.3);
+  }
+  .css-3yvln2-MuiPaper-root{
+    color:#fff;
+  }
+
+  .slider:hover {
+    border: 3px solid sec;
+    
+    & .project-name p {
+      transform: translateY(-10px);
+    }
+    & .icon-wrapper i {
+      transform: translateY(5px);
+    }
+  }
+
+
+
+  .slider-card {
+    width: 65px;
+    display: flex;
+    height: 104px;
+    background: rgb(50, 155, 224);
+    border-radius: 3px;
+    display: inline-block;
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-top: 4px;
+    box-shadow: 5px 5px 5px rgb(18, 67, 228);  
+    
+  }
+
+  table {
+    border-collapse: collapse;
+    font-family:  sans-serif;
+    background-color: rgb(236, 228, 228);
+    font-size: 10px;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+  table th {
+    border: 1px solid rgb(250, 247, 247);
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+  .table td {
+    text-align: center;
+  }
+
+  table tbody td {
+    color: #070707;
+    border: 1px solid #dddfe1;
+    font-family: sans-serif;
+    font-size: small;
+  }
+
+  table tbody tr {
+    background-color: white;
+    padding: 0;
+  }
+
+  /* .css-1h37f49-MuiTableCell-root{
+    font-family:"Roboto""Helvetica","Arial",sans-serif;
+    font-weight:500;
+    font-size:0.875rem;
+    letter-spacing:0.01071em;
+    display:table-cell;
+    vertical-align:inherit;
+    border-bottom:1px solid rgba(224, 224, 224, 1);
+    text-align:left;
+    position:-webkit-sticky;
+    position:sticky;
+    top:0;
+    z-index:2;
+    background-color:#912f2f;
+} */
+
+.footer {
+    display: flex;
+    background-color: #dadadb;
+    height: 37px;
+    color: #969394;
+    width: 100%;
+    align-items: center;
+}  
